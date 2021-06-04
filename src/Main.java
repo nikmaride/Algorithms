@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter array length: ");
-        int size = input.nextInt();
+        int size = 5;
         int array[] = new int[size];
-        System.out.println("Insert array elements:");
+
         for (int i = 0; i < size; i++) {
             array[i] = input.nextInt();
         }
@@ -15,5 +14,7 @@ public class Main {
             System.out.print (" " + array[i]);
         }
         System.out.println();
+        System.out.println("Choose the algorithm of sort");
+        int answer =
     }
         }
