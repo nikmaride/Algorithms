@@ -15,6 +15,6 @@ public class Main {
         }
         System.out.println();
         System.out.println("Choose the algorithm of sort");
-        int answer =
+
     }
         }
