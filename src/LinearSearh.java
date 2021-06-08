@@ -1,5 +1,5 @@
 public class LinearSearh {
-    public static int linearSearch(int arr[], int elementToSearch) {
-
+    public static void linearSearch(int[] arr, int elementToSearch) {
+    System.out.println("Hello");
        }
 }
