@@ -6,7 +6,7 @@ public class interpolation {
 
         while ((startIndex <= lastIndex) && (elementToSearch >= integers[startIndex]) &&
                 (elementToSearch <= integers[lastIndex])) {
-            // используем формулу интерполяции для поиска возможной лучшей позиции для существующего элемента
+
             int pos = startIndex + (((lastIndex-startIndex) /
                     (integers[lastIndex]-integers[startIndex]))*
                     (elementToSearch - integers[startIndex]));
