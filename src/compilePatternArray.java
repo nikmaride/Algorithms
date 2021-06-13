@@ -8,7 +8,7 @@ public class compilePatternArray {
     }
 
     public static List<Integer> performKMPSearch(String text, String pattern) {
-        int[] compliedPatternArray = new compilePatternArray(pattern);
+        int[] compliedPatternArray = new int[0];
 
         int textIndex = 0;
         int patternIndex = 0;
