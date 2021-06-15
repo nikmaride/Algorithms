@@ -15,6 +15,14 @@ public class Main {
         }
         System.out.println();
         System.out.println("Choose the algorithm of sort");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите целое число: ");
+        if (scanner.hasNextInt()) {
+            int i = scanner.nextInt();
+            System.out.println(i);
+        } else {
+            System.out.println("Вы ввели не целое число");
+        }
 
     }
         }
