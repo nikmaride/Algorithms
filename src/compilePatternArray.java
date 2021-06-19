@@ -3,8 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class compilePatternArray {
-    public compilePatternArray(String pattern) {
-    }
+
 
     public static List<Integer> performKMPSearch(String text, String pattern) {
         int[] compliedPatternArray = new int[0];
